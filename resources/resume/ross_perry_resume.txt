@@ -32,12 +32,12 @@ CORE EXPERTISE
 
 PROFESSIONAL EXPERIENCE
 
-CONCENTRIX - HPE PROGRAM | PRE-SALES SOLUTIONS ARCHITECT / SYSTEMS BUILDER
+CONCENTRIX - HPE PROGRAM | SYSTEMS BUILDER / PRE-SALES AUTOMATION ARCHITECT
 January 2026 - Present | Remote
-- Architected and implemented pre-sales automation system for HPE Lead Generation Representative (LGR) outreach, integrating Salesforce, RingDNA, and Outlook workflows into unified processes
+- Architected and implemented pre-sales automation system for HPE Lead Generation Representative (LGR) outreach, integrating Salesforce, HubSpot-aware sales process thinking, RingDNA, and Outlook workflows into unified processes
 - Reduced manual data-entry time by 30-40% through automated workflow design and dashboard development
 - Designed centralized pre-sales dashboard streamlining dormant account re-engagement, call tracking, and email automation
-- Engineered AI-powered prompt frameworks (Codex/AI systems) for standardized outreach messaging and engagement strategies
+- Engineered AI-powered prompt frameworks (Codex/AI systems) for standardized outreach messaging, engagement strategies, and repeatable seller enablement
 - Translated fragmented sales operations into repeatable, system-driven processes, serving as technical bridge between sales ops and execution
 - Proposed scalable architecture for future HPE Salesforce integration, focusing on efficiency and pipeline generation improvements
 - Introduced automation concepts now being considered for adaptation across other Concentrix programs
