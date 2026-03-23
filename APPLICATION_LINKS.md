@@ -9,8 +9,8 @@
 
 ## Your Portfolio Links
 
-- Portfolio landing page target: [rossperry22.github.io/systems-architecture-portfolio](https://rossperry22.github.io/systems-architecture-portfolio/)
-- Repository target: [github.com/rossperry22/systems-architecture-portfolio](https://github.com/rossperry22/systems-architecture-portfolio)
+- Portfolio landing page target: [rossperry22-jpg.github.io/systems-architecture-portfolio](https://rossperry22-jpg.github.io/systems-architecture-portfolio/)
+- Repository target: [github.com/rossperry22-jpg/systems-architecture-portfolio](https://github.com/rossperry22-jpg/systems-architecture-portfolio)
 - Local portfolio homepage: [index.html](C:/Users/Rossp/OneDrive/Documents/PreSALES/index.html)
 - Local repo overview: [README.md](C:/Users/Rossp/OneDrive/Documents/PreSALES/README.md)
 - Flagship case study: [projects/hpe-lgr-automation/README.md](C:/Users/Rossp/OneDrive/Documents/PreSALES/projects/hpe-lgr-automation/README.md)
@@ -53,7 +53,7 @@ Do not lead with:
 
 ## Suggested Internal Message
 
-I’m applying internally for the Solutions Architect role. While my current title is Lead Generation Representative supporting the HPE motion in Concentrix B2B Sales, I’ve been building systems and workflow automation that operate at a solutions-architecture level, including an HPE workflow automation model that reduced manual data-entry time by 30-40 percent. I put the work into a portfolio here: [rossperry22.github.io/systems-architecture-portfolio](https://rossperry22.github.io/systems-architecture-portfolio/). I’d appreciate your consideration and any guidance on next steps.
+I’m applying internally for the Solutions Architect role. While my current title is Lead Generation Representative supporting the HPE motion in Concentrix B2B Sales, I’ve been building systems and workflow automation that operate at a solutions-architecture level, including an HPE workflow automation model that reduced manual data-entry time by 30-40 percent. I put the work into a portfolio here: [rossperry22-jpg.github.io/systems-architecture-portfolio](https://rossperry22-jpg.github.io/systems-architecture-portfolio/). I’d appreciate your consideration and any guidance on next steps.
 
 ## What I Could Verify Publicly
 

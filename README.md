@@ -2,7 +2,7 @@
 
 Production-quality portfolio repository built to demonstrate pre-sales systems architecture, AI workflow design, and business-outcome thinking through shipped artifacts instead of claims.
 
-[Live Portfolio](https://rossperry22.github.io/systems-architecture-portfolio/) | [Interactive Resume](./resources/resume/ross_perry_resume.html) | [Flagship Case Study](./projects/hpe-lgr-automation/README.md) | [Pre-Sales Automation Patterns](./case-studies/pre-sales-automation.md)
+[Live Portfolio](https://rossperry22-jpg.github.io/systems-architecture-portfolio/) | [Interactive Resume](./resources/resume/ross_perry_resume.html) | [Flagship Case Study](./projects/hpe-lgr-automation/README.md) | [Pre-Sales Automation Patterns](./case-studies/pre-sales-automation.md)
 
 ## Why This Repository Exists
 
@@ -92,7 +92,7 @@ The repository includes:
 
 ## Suggested Next Publishing Steps
 
-1. Create the repository `rossperry22/systems-architecture-portfolio`
+1. Create the repository `rossperry22-jpg/systems-architecture-portfolio`
 2. Push this folder to the repository root
 3. Enable GitHub Pages from Actions
 4. Turn on Discussions for hiring-manager follow-up and peer engagement
