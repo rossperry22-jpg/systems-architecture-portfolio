@@ -1,0 +1,61 @@
+@media (max-width: 1080px) {
+  .nav-shell {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
+  }
+
+  .hero-grid,
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-row,
+  .flagship-grid,
+  .architecture-board,
+  .project-grid,
+  .library-grid,
+  .path-grid,
+  .capability-grid,
+  .results-grid,
+  .tool-grid,
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-top: 2.5rem;
+  }
+
+  .section-shell {
+    padding: 2.3rem 0;
+  }
+
+  .metrics-row,
+  .flagship-grid,
+  .architecture-board,
+  .project-grid,
+  .library-grid,
+  .path-grid,
+  .capability-grid,
+  .results-grid,
+  .tool-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header {
+    position: static;
+  }
+
+  .contact-actions .button,
+  .nav-actions .button,
+  .hero-actions .button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+ROSS PERRY
+
+Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo.
+Target role: Pre-Sales Solutions Architect.
+
+SUMMARY
+Internal Concentrix candidate with demonstrated systems-building, workflow automation,
+and business translation skills. Known for turning fragmented workflows into cleaner
+operating systems and tying technical design to measurable business value.
+
+CURRENT IMPACT | CONCENTRIX B2B SALES | HPE MOTION
+- Built workflow automation patterns across Salesforce, RingDNA, and Outlook
+- Reduced manual data-entry time by 30-40%
+- Used prompt engineering and process design to improve continuity and repeatability
+- Created reusable workflow architecture with value beyond a single motion
+
+SELECTED ACHIEVEMENTS
+- Won multiple six-figure playground and public infrastructure RFPs
+- Delivered Sourcewell-backed solution for the City of Greenville, SC
+- Supplied Motorola radio systems to 44 schools
+- Won independent school-supplies contracts through targeted outreach
+- Designed Project Syndicate, a 22-agent orchestration platform
+- Built 30+ OpenClaw skills spanning automation, research, and workflow acceleration
+
+PORTFOLIO PROJECTS
+- HPE Workflow Automation
+- Project Syndicate
+- Adventure Aviator
+- Sonic Canvas Marketplace
+- OpenClaw Skills Ecosystem

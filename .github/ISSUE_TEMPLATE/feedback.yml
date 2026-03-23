@@ -1,0 +1,22 @@
+name: Portfolio Feedback
+description: Share feedback, questions, or hiring-manager follow-up.
+title: "[Feedback]: "
+labels:
+  - feedback
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: What stood out?
+      description: Mention the project, section, or tool you reviewed.
+      placeholder: The HPE workflow automation case study and ROI calculator were especially useful because...
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What should be clarified?
+      description: Use this for follow-up questions or requests for more detail.
+      placeholder: I would like more information on the governance model or implementation timeline.
+    validations:
+      required: false

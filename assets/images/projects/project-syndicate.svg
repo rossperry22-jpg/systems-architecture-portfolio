@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title">
+  <title>Project Syndicate Overview</title>
+  <rect width="800" height="480" rx="28" fill="#081f3d"/>
+  <rect x="46" y="46" width="708" height="388" rx="24" fill="#123766"/>
+  <circle cx="170" cy="170" r="54" fill="#77d3c6"/>
+  <circle cx="400" cy="124" r="54" fill="#ead7b5"/>
+  <circle cx="622" cy="190" r="54" fill="#77d3c6"/>
+  <circle cx="284" cy="318" r="54" fill="#ead7b5"/>
+  <circle cx="520" cy="316" r="54" fill="#77d3c6"/>
+  <path d="M170 170 L400 124 L622 190 L520 316 L284 318 Z" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="78" fill="#ffffff" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Project Syndicate</text>
+  <text x="62" y="112" fill="#d9ebff" font-size="18" font-family="Segoe UI, Arial, sans-serif">22-role orchestration | secure gateway thinking | operator visibility</text>
+</svg>

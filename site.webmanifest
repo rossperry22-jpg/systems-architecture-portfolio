@@ -1,0 +1,15 @@
+{
+  "name": "Ross Perry | Systems Architecture Portfolio",
+  "short_name": "Ross Perry",
+  "start_url": "/systems-architecture-portfolio/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#081f3d",
+  "icons": [
+    {
+      "src": "./assets/images/ui/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
