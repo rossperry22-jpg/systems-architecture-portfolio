@@ -76,6 +76,19 @@ TECHNICAL PROFICIENCY
 - Sales Process Automation: System design, integration, dashboarding, optimization
 - Proposal/RFP Development: Technical narrative structuring, scoring alignment, solution positioning
 
+EDUCATION
+Bachelor of Science (B.S.), Parks, Recreation, Travel & Tourism
+Focus: Tourism Marketing & Management
+
+CERTIFICATIONS
+Certified Playground Safety Inspector (CPSI)
+National Recreation and Park Association (NRPA)
+
+ADDITIONAL PROFESSIONAL DEVELOPMENT
+- Salesforce Trailhead Certifications (In Progress)
+- Solutions Architecture / Cloud Fundamentals (In Progress)
+- AI Workflow & Automation Systems (Self-Directed Learning)
+
 PORTFOLIO SHOWCASE
 GitHub: rossperry22-jpg.github.io/systems-architecture-portfolio
 - HPE LGR Automation: Production pre-sales automation for Concentrix
