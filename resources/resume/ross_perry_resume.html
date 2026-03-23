@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ross Perry Resume</title>
+  <title>Ross Chandler Perry | Resume</title>
   <style>
     :root {
-      --ink: #0c2340;
-      --ink-soft: #42566f;
-      --accent: #1c6b72;
+      --ink: #0b2443;
+      --ink-soft: #3f556f;
+      --accent: #176b73;
+      --line: #d7e1ec;
       --paper: #f3f6fa;
-      --line: #d8e1ed;
       --white: #ffffff;
     }
 
@@ -20,7 +20,7 @@
 
     body {
       margin: 0;
-      padding: 2rem 1rem;
+      padding: 1.5rem 1rem;
       background: var(--paper);
       color: #162232;
       font: 15px/1.45 Aptos, Calibri, sans-serif;
@@ -28,20 +28,25 @@
 
     a {
       color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     main {
-      max-width: 960px;
+      max-width: 980px;
       margin: 0 auto;
       background: var(--white);
       border-radius: 28px;
-      box-shadow: 0 18px 42px rgba(12, 35, 64, 0.12);
+      box-shadow: 0 20px 48px rgba(11, 36, 67, 0.12);
       overflow: hidden;
     }
 
     header {
-      padding: 2rem;
-      background: linear-gradient(135deg, #0c2340, #1a4f7c);
+      padding: 1.75rem 2rem 1.35rem;
+      background: linear-gradient(135deg, #0b2443, #1f4f7f);
       color: var(--white);
     }
 
@@ -55,10 +60,11 @@
     h1 {
       font-size: 2.35rem;
       margin-bottom: 0.35rem;
+      letter-spacing: -0.03em;
     }
 
     h2 {
-      font-size: 1rem;
+      font-size: 0.95rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: var(--ink);
@@ -69,80 +75,113 @@
       color: var(--ink);
     }
 
-    .subtitle {
-      margin: 0;
-      font-size: 1.05rem;
-      color: rgba(255, 255, 255, 0.9);
-      max-width: 60rem;
+    .location {
+      margin: 0 0 0.5rem;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.92);
     }
 
-    .header-meta,
-    .actions {
+    .contact-line,
+    .tagline,
+    .action-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-top: 1rem;
+      gap: 0.75rem 1rem;
+      margin-top: 0.8rem;
     }
 
-    .chip,
-    .action-link {
+    .contact-line a,
+    .contact-line span {
+      color: rgba(255, 255, 255, 0.92);
+      font-weight: 600;
+    }
+
+    .tag {
       display: inline-flex;
       align-items: center;
-      min-height: 2.4rem;
-      padding: 0.55rem 0.85rem;
+      min-height: 2.25rem;
+      padding: 0.45rem 0.8rem;
       border-radius: 999px;
-      text-decoration: none;
-      font-weight: 700;
-    }
-
-    .chip {
       background: rgba(255, 255, 255, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.2);
       color: var(--white);
+      font-weight: 700;
     }
 
     .action-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.35rem;
+      padding: 0.5rem 0.85rem;
+      border-radius: 999px;
       background: rgba(255, 255, 255, 0.96);
       color: var(--ink);
+      font-weight: 800;
     }
 
     .shell {
-      padding: 1.75rem 2rem 2rem;
+      padding: 1.3rem 2rem 2rem;
       display: grid;
-      gap: 1.25rem;
+      gap: 1rem;
     }
 
     section {
       display: grid;
-      gap: 0.65rem;
+      gap: 0.55rem;
     }
 
-    .callout,
-    .card {
+    .banner,
+    .block,
+    .quote {
       border: 1px solid var(--line);
       border-radius: 18px;
       background: #fbfcfe;
     }
 
-    .callout {
-      padding: 1rem 1.1rem;
-      background: linear-gradient(135deg, rgba(28, 107, 114, 0.08), rgba(12, 35, 64, 0.04));
+    .banner {
+      padding: 1rem 1.15rem;
+      background: linear-gradient(135deg, rgba(23, 107, 115, 0.08), rgba(11, 36, 67, 0.04));
     }
 
-    .card {
-      padding: 1rem;
+    .block {
+      padding: 0.95rem 1rem;
     }
 
-    .grid {
+    .quote {
+      padding: 1rem 1.15rem;
+      background: linear-gradient(135deg, rgba(11, 36, 67, 0.04), rgba(23, 107, 115, 0.08));
+    }
+
+    .grid-2,
+    .two-col {
       display: grid;
       gap: 1rem;
+    }
+
+    .grid-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .two-col {
+      grid-template-columns: 1.15fr 0.85fr;
+    }
+
+    .role {
       display: grid;
-      gap: 1rem;
-      grid-template-columns: 1.2fr 0.8fr;
+      gap: 0.4rem;
+    }
+
+    .role-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.5rem 1rem;
+      align-items: baseline;
+    }
+
+    .role-meta {
+      color: var(--ink-soft);
+      font-weight: 700;
     }
 
     p {
@@ -150,33 +189,29 @@
       color: var(--ink-soft);
     }
 
-    ul {
+    ul,
+    ol {
       margin: 0;
       padding-left: 1.1rem;
       color: var(--ink-soft);
     }
 
     li + li {
-      margin-top: 0.3rem;
+      margin-top: 0.28rem;
     }
 
     .portfolio-link {
-      font-size: 1.02rem;
-      font-weight: 800;
+      font-size: 1.03rem;
+      font-weight: 900;
       word-break: break-word;
-    }
-
-    .why-fit {
-      display: grid;
-      gap: 0.6rem;
-    }
-
-    .why-fit strong {
-      color: var(--ink);
     }
 
     .small-note {
       font-size: 0.92rem;
+    }
+
+    .tight {
+      gap: 0.35rem;
     }
 
     @page {
@@ -186,9 +221,9 @@
 
     @media print {
       body {
-        background: #ffffff;
         padding: 0;
-        font-size: 10.5pt;
+        background: #ffffff;
+        font-size: 10.35pt;
       }
 
       main {
@@ -198,25 +233,27 @@
       }
 
       header {
-        padding: 1.1rem 1.2rem 1rem;
+        padding: 1rem 1.15rem 0.95rem;
       }
 
       .shell {
-        padding: 1rem 1.2rem 1.2rem;
-        gap: 0.9rem;
+        padding: 0.9rem 1.15rem 1rem;
+        gap: 0.75rem;
       }
 
-      .actions {
+      .action-row {
         display: none;
       }
 
-      .grid,
+      .grid-2,
       .two-col {
         grid-template-columns: 1fr 1fr;
       }
 
-      .callout,
-      .card {
+      .banner,
+      .block,
+      .quote,
+      .role {
         break-inside: avoid;
       }
 
@@ -230,15 +267,20 @@
 <body>
   <main>
     <header>
-      <h1>Ross Perry</h1>
-      <p class="subtitle">Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo, with demonstrated systems-building, workflow automation, prompt engineering, and solutions-architecture level business impact.</p>
-      <div class="header-meta">
-        <span class="chip">Target Role: Pre-Sales Solutions Architect</span>
-        <span class="chip">Internal Concentrix Candidate</span>
-        <span class="chip">30-40% Time Reduction</span>
-        <span class="chip">Public Sector RFP Wins</span>
+      <h1>Ross Chandler Perry</h1>
+      <p class="location">Greenville, SC | Remote</p>
+      <div class="contact-line">
+        <span>864-617-1931</span>
+        <a href="mailto:rossperry22@gmail.com">rossperry22@gmail.com</a>
+        <a href="https://www.linkedin.com/in/RossChandlerPerry">linkedin.com/in/RossChandlerPerry</a>
+        <a href="https://github.com/rossperry22-jpg">github.com/rossperry22-jpg</a>
       </div>
-      <div class="actions">
+      <div class="tagline">
+        <span class="tag">Pre-Sales Solutions Architect</span>
+        <span class="tag">Systems Builder</span>
+        <span class="tag">Automation Specialist</span>
+      </div>
+      <div class="action-row">
         <a class="action-link" href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">Open Full Portfolio</a>
         <a class="action-link" href="./ross_perry_resume.pdf">Download PDF</a>
       </div>
@@ -246,125 +288,168 @@
 
     <div class="shell">
       <section>
-        <h2>Full Portfolio</h2>
-        <div class="callout">
+        <h2>Portfolio Link</h2>
+        <div class="banner">
           <p class="portfolio-link">
             Full portfolio and case studies:
             <a href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">https://rossperry22-jpg.github.io/systems-architecture-portfolio/</a>
           </p>
-          <p class="small-note">VITALLY IMPORTANT: use this link for the live portfolio, flagship HPE workflow automation case study, downloadable resume formats, and the broader proof of why Ross is the strongest fit for the opportunity.</p>
+          <p class="small-note">VITALLY IMPORTANT: please click this live portfolio link for the flagship HPE LGR automation case study, broader technical portfolio, and the clearest proof of why Ross is specifically the best fit for this opportunity.</p>
         </div>
       </section>
 
       <section>
-        <h2>Executive Summary</h2>
-        <p>Internal Concentrix candidate with a track record of turning fragmented workflows into cleaner operating systems and translating technical execution into measurable business value. Brings a mix of systems thinking, workflow automation, prompt engineering, technical translation, and contract-winning execution across commercial, education, and public-sector environments.</p>
+        <h2>Professional Profile</h2>
+        <div class="block">
+          <p>Results-driven pre-sales solutions architect with expertise designing and building scalable technical sales systems, automating outreach workflows, and translating complex platforms into revenue-generating solutions. Currently architecting pre-sales automation infrastructure for Concentrix's HPE Lead Generation Representative (LGR) program. Proven ability to bridge technical architecture with business outcomes, improve sales efficiency, and drive pipeline growth through system-driven processes.</p>
+        </div>
       </section>
 
       <section>
-        <h2>Why Ross Is Specifically The Best Fit</h2>
-        <div class="grid why-fit">
-          <div class="card">
-            <strong>Already inside Concentrix</strong>
-            <p>Ross already understands the operating reality, systems, expectations, and internal culture, which removes a major ramp risk.</p>
+        <h2>Core Expertise</h2>
+        <div class="grid-2">
+          <div class="block">
+            <ul>
+              <li>Pre-Sales Solution Architecture: End-to-end design of technical sales systems</li>
+              <li>Technical Discovery and Sales Engineering: Client needs analysis to solution mapping</li>
+              <li>Workflow Automation: AI, CRM, outreach, dashboard, and email system integration and optimization</li>
+              <li>RFP Strategy and Proposal Development: High-scoring technical narratives</li>
+            </ul>
           </div>
-          <div class="card">
-            <strong>Already doing architecture-level work</strong>
-            <p>Built an HPE workflow automation model across Salesforce, RingDNA, and Outlook that reduced manual data-entry time by 30-40%.</p>
+          <div class="block">
+            <ul>
+              <li>SaaS and Cloud Platform Positioning: Product capability alignment with business goals</li>
+              <li>Technical Demo Design: Compelling client-focused demonstrations</li>
+              <li>Salesforce, HubSpot, and Sales Ops: CRM and engagement platform configuration, automation, and integration</li>
+              <li>Cross-Functional Leadership: Alignment across sales, product, engineering, and operations</li>
+            </ul>
           </div>
-          <div class="card">
-            <strong>Strong business translation</strong>
-            <p>The work consistently ties architecture decisions to seller capacity, process continuity, operational scale, and revenue outcomes.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Professional Experience</h2>
+        <div class="role block">
+          <div class="role-head">
+            <h3>Concentrix - HPE Program | Pre-Sales Solutions Architect / Systems Builder</h3>
+            <span class="role-meta">January 2026 - Present | Remote</span>
           </div>
-          <div class="card">
-            <strong>Proven outside the current role too</strong>
-            <p>Multiple six-figure public-sector wins, Sourcewell delivery, and 44-school Motorola deployments show broad credibility under complex buying conditions.</p>
+          <ul>
+            <li>Architected and implemented pre-sales automation system for HPE Lead Generation Representative (LGR) outreach, integrating Salesforce, RingDNA, and Outlook workflows into unified processes.</li>
+            <li>Reduced manual data-entry time by 30-40% through automated workflow design and dashboard development.</li>
+            <li>Designed centralized pre-sales dashboard streamlining dormant account re-engagement, call tracking, and email automation.</li>
+            <li>Engineered AI-powered prompt frameworks (Codex and AI systems) for standardized outreach messaging and engagement strategies.</li>
+            <li>Translated fragmented sales operations into repeatable, system-driven processes, serving as technical bridge between sales ops and execution.</li>
+            <li>Proposed scalable architecture for future HPE Salesforce integration, focusing on efficiency and pipeline generation improvements.</li>
+            <li>Introduced automation concepts now being considered for adaptation across other Concentrix programs.</li>
+          </ul>
+        </div>
+
+        <div class="role block">
+          <div class="role-head">
+            <h3>Geograph Technologies | Customer Experience Specialist / Solutions Lead</h3>
+            <span class="role-meta">2025 - 2026 | Remote</span>
           </div>
+          <ul>
+            <li>Led technical discovery for municipalities, electric co-ops, and FTTH providers using GIS-based SaaS platform (CrescentLink).</li>
+            <li>Acted as primary technical liaison between customers, sales, and product teams, ensuring solution alignment.</li>
+            <li>Contributed to RFP responses and technical proposals, aligning product capabilities with client requirements.</li>
+            <li>Delivered consultative platform demonstrations that helped clients visualize network optimization strategies.</li>
+            <li>Identified and implemented process improvements and automation opportunities.</li>
+          </ul>
+        </div>
+
+        <div class="role block">
+          <div class="role-head">
+            <h3>Carolina Recreation &amp; Design | Territory Sales Manager (Municipal / B2G)</h3>
+          </div>
+          <ul>
+            <li>Won multiple six-figure municipal RFP contracts for playground and public infrastructure projects.</li>
+            <li>Contracted through Sourcewell cooperative to provide commercial shading structures to the City of Greenville, SC.</li>
+            <li>Translated stakeholder needs into engineered, proposal-ready solutions with safety compliance.</li>
+            <li>Managed full sales cycle from site evaluation through bid submission and contract award.</li>
+            <li>Built relationships with city officials, procurement teams, and planners to drive approvals.</li>
+          </ul>
+        </div>
+
+        <div class="role block">
+          <div class="role-head">
+            <h3>The Bid Lab | Proposal Consultant (RFP Specialist)</h3>
+          </div>
+          <ul>
+            <li>Developed winning RFP responses across government and enterprise sectors.</li>
+            <li>Structured technical narratives to align with scoring criteria and client objectives.</li>
+            <li>Collaborated with subject matter experts to ensure technical accuracy and competitiveness.</li>
+          </ul>
+        </div>
+
+        <div class="role block">
+          <div class="role-head">
+            <h3>Gloves Plus (Motorola Solutions Partner) | Growth Manager</h3>
+          </div>
+          <ul>
+            <li>Secured Motorola radio contracts supplying 44 schools with communication systems.</li>
+            <li>Won school supplies contracts independently through targeted outreach and positioning.</li>
+            <li>Supported technical sales of communication systems to K-12 and enterprise clients.</li>
+            <li>Assisted with RFP acquisition and solution positioning.</li>
+            <li>Aligned product capabilities with client operational needs across education and public safety sectors.</li>
+          </ul>
         </div>
       </section>
 
       <section class="two-col">
-        <div>
-          <h2>Current Role | Concentrix B2B Sales</h2>
-          <div class="card">
-            <h3>Lead Generation Representative | HPE Motion</h3>
+        <div class="tight">
+          <h2>Technical Proficiency</h2>
+          <div class="block">
             <ul>
-              <li>Built workflow automation patterns across Salesforce, RingDNA, and Outlook.</li>
-              <li>Reduced manual data-entry time by 30-40% through a dashboard-led operating model.</li>
-              <li>Applied prompt engineering and process design to improve continuity, speed, and repeatability.</li>
-              <li>Created a pattern with value beyond a single motion, supporting internal transferability and reuse.</li>
+              <li>CRM and Engagement Platforms: Salesforce, HubSpot, RingDNA, Outlook workflows</li>
+              <li>Automation and AI: Prompt engineering, workflow design, dashboard development, Codex and AI systems</li>
+              <li>SaaS and Cloud Platforms: GIS and infrastructure software, cloud-based sales tools, sales engagement platforms</li>
+              <li>Sales Process Automation: System design, integration, dashboarding, optimization</li>
+              <li>Proposal and RFP Development: Technical narrative structuring, scoring alignment, solution positioning</li>
             </ul>
           </div>
         </div>
-        <div>
-          <h2>Core Strengths</h2>
-          <div class="card">
+
+        <div class="tight">
+          <h2>Portfolio Showcase</h2>
+          <div class="block">
+            <p class="portfolio-link"><a href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">GitHub: rossperry22-jpg.github.io/systems-architecture-portfolio</a></p>
             <ul>
-              <li>Systems architecture and operating model design</li>
-              <li>Workflow automation and prompt engineering</li>
-              <li>Pre-sales technical translation</li>
-              <li>RFP strategy and stakeholder alignment</li>
-              <li>Public-sector and education contract execution</li>
+              <li>HPE LGR Automation: Production pre-sales automation for Concentrix</li>
+              <li>Project Syndicate: AI agent coordination platform with 22 specialized roles</li>
+              <li>Adventure Aviator: Autonomous flight school infrastructure</li>
+              <li>Sonic Canvas: AI-native music commerce platform</li>
+              <li>OpenClaw Skills: 30+ automation skills for workflow optimization</li>
             </ul>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Selected Business Impact</h2>
-        <div class="grid">
-          <div class="card">
-            <h3>Concentrix | HPE</h3>
-            <ul>
-              <li>30-40% reduction in manual data-entry effort</li>
-              <li>Reusable workflow architecture for seller support</li>
-              <li>Cross-system operating model unifying Salesforce, RingDNA, and Outlook</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Municipal And Public Sector</h3>
-            <ul>
-              <li>Multiple six-figure playground and infrastructure RFP wins</li>
-              <li>Solution framing that balanced compliance, credibility, and buyer confidence</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Sourcewell And Education</h3>
-            <ul>
-              <li>Sourcewell-backed City of Greenville commercial shading solution</li>
-              <li>Motorola radio system deployments across 44 schools</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>AI Systems And Platforms</h3>
-            <ul>
-              <li>22-agent Project Syndicate orchestration platform</li>
-              <li>30+ specialized OpenClaw skills across automation, research, and workflow acceleration</li>
-            </ul>
-          </div>
+        <h2>Value Proposition</h2>
+        <div class="quote">
+          <p><strong>"I design systems that transform complex sales processes into scalable, repeatable engines, bridging technical architecture with real-world revenue outcomes."</strong></p>
         </div>
       </section>
 
-      <section class="two-col">
-        <div>
-          <h2>Featured Portfolio Proof</h2>
-          <div class="card">
-            <ul>
-              <li>HPE Workflow Automation</li>
-              <li>Project Syndicate</li>
-              <li>Adventure Aviator</li>
-              <li>Sonic Canvas Marketplace</li>
-              <li>OpenClaw Skills Ecosystem</li>
-            </ul>
-          </div>
+      <section>
+        <h2>Why I'm An Ideal Candidate For The Concentrix Pre-Sales Solutions Architect Role</h2>
+        <div class="block">
+          <ol>
+            <li>Proven internal contributor. Already delivering value within Concentrix through HPE LGR program automation.</li>
+            <li>Systems architecture mindset. Focus on building scalable infrastructure, not just executing tasks.</li>
+            <li>Technical-business translation. Ability to align complex technical capabilities with client needs and business outcomes.</li>
+            <li>Automation expertise. Hands-on experience with AI-powered frameworks and workflow optimization.</li>
+            <li>Full-cycle pre-sales experience. From technical discovery through RFP development and solution delivery.</li>
+          </ol>
         </div>
-        <div>
-          <h2>Call To Action</h2>
-          <div class="callout">
-            <p><strong>Review the full live portfolio:</strong></p>
-            <p class="portfolio-link"><a href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">https://rossperry22-jpg.github.io/systems-architecture-portfolio/</a></p>
-            <p class="small-note">The portfolio shows the flagship Concentrix HPE case study, project documentation, business-impact framing, and downloadable artifacts in one place.</p>
-          </div>
+      </section>
+
+      <section>
+        <h2>Availability &amp; Interest</h2>
+        <div class="banner">
+          <p>Available to bring this combination of systems building, technical sales architecture, and automation expertise to the Concentrix Pre-Sales Solutions Architect role. Eager to scale impact across the organization and contribute to transforming pre-sales into a data-driven, efficiency-focused engine for pipeline growth.</p>
         </div>
       </section>
     </div>

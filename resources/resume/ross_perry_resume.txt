@@ -1,46 +1,102 @@
-ROSS PERRY
+ROSS CHANDLER PERRY
+Greenville, SC | Remote
+864-617-1931 | rossperry22@gmail.com | linkedin.com/in/RossChandlerPerry | github.com/rossperry22-jpg
 
-Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo.
-Target role: Pre-Sales Solutions Architect.
+PRE-SALES SOLUTIONS ARCHITECT | SYSTEMS BUILDER | AUTOMATION SPECIALIST
 
 FULL PORTFOLIO
 https://rossperry22-jpg.github.io/systems-architecture-portfolio/
 
 VITALLY IMPORTANT:
-Please review the full live portfolio at the link above for the flagship HPE workflow
-automation case study, supporting project work, and the clearest proof of why Ross is
-specifically the best fit for this opportunity.
+Please click the portfolio link above for the full live portfolio, flagship HPE LGR
+automation case study, and the clearest proof of why Ross is specifically the best fit
+for this opportunity.
 
-SUMMARY
-Internal Concentrix candidate with demonstrated systems-building, workflow automation,
-prompt engineering, and business translation skills. Known for turning fragmented
-workflows into cleaner operating systems and tying technical design to measurable
-business value.
+PROFESSIONAL PROFILE
+Results-driven pre-sales solutions architect with expertise designing and building scalable
+technical sales systems, automating outreach workflows, and translating complex platforms
+into revenue-generating solutions. Currently architecting pre-sales automation infrastructure
+for Concentrix's HPE Lead Generation Representative (LGR) program. Proven ability to bridge
+technical architecture with business outcomes, improve sales efficiency, and drive pipeline
+growth through system-driven processes.
 
-WHY ROSS IS THE BEST FIT
-- Already inside Concentrix and familiar with the operating environment
-- Already delivering solutions-architecture level work from the current role
-- Reduced manual data-entry time by 30-40% in the HPE workflow automation model
-- Strong business translation across technical, operational, and revenue outcomes
-- Proven contract-winning execution across public sector and education environments
+CORE EXPERTISE
+- Pre-Sales Solution Architecture: End-to-end design of technical sales systems
+- Technical Discovery & Sales Engineering: Client needs analysis to solution mapping
+- Workflow Automation: AI/CRM/outreach/dashboard/email system integration and optimization
+- RFP Strategy & Proposal Development: High-scoring technical narratives
+- SaaS/Cloud Platform Positioning: Product capability alignment with business goals
+- Technical Demo Design: Compelling client-focused demonstrations
+- Salesforce, HubSpot & Sales Ops: CRM/engagement platform configuration, automation, and integration
+- Cross-Functional Leadership: Alignment across sales, product, engineering, operations
 
-CURRENT IMPACT | CONCENTRIX B2B SALES | HPE MOTION
-- Built workflow automation patterns across Salesforce, RingDNA, and Outlook
-- Reduced manual data-entry time by 30-40%
-- Used prompt engineering and process design to improve continuity and repeatability
-- Created reusable workflow architecture with value beyond a single motion
+PROFESSIONAL EXPERIENCE
 
-SELECTED ACHIEVEMENTS
-- Won multiple six-figure playground and public infrastructure RFPs
-- Delivered Sourcewell-backed solution for the City of Greenville, SC
-- Supplied Motorola radio systems to 44 schools
-- Won independent school-supplies contracts through targeted outreach
-- Designed Project Syndicate, a 22-agent orchestration platform
-- Built 30+ OpenClaw skills spanning automation, research, and workflow acceleration
+CONCENTRIX - HPE PROGRAM | PRE-SALES SOLUTIONS ARCHITECT / SYSTEMS BUILDER
+January 2026 - Present | Remote
+- Architected and implemented pre-sales automation system for HPE Lead Generation Representative (LGR) outreach, integrating Salesforce, RingDNA, and Outlook workflows into unified processes
+- Reduced manual data-entry time by 30-40% through automated workflow design and dashboard development
+- Designed centralized pre-sales dashboard streamlining dormant account re-engagement, call tracking, and email automation
+- Engineered AI-powered prompt frameworks (Codex/AI systems) for standardized outreach messaging and engagement strategies
+- Translated fragmented sales operations into repeatable, system-driven processes, serving as technical bridge between sales ops and execution
+- Proposed scalable architecture for future HPE Salesforce integration, focusing on efficiency and pipeline generation improvements
+- Introduced automation concepts now being considered for adaptation across other Concentrix programs
 
-PORTFOLIO PROJECTS
-- HPE Workflow Automation
-- Project Syndicate
-- Adventure Aviator
-- Sonic Canvas Marketplace
-- OpenClaw Skills Ecosystem
+GEOGRAPH TECHNOLOGIES | CUSTOMER EXPERIENCE SPECIALIST / SOLUTIONS LEAD
+2025 - 2026 | Remote
+- Led technical discovery for municipalities, electric co-ops, and FTTH providers using GIS-based SaaS platform (CrescentLink)
+- Acted as primary technical liaison between customers, sales, and product teams, ensuring solution alignment
+- Contributed to RFP responses and technical proposals, aligning product capabilities with client requirements
+- Delivered consultative platform demonstrations that helped clients visualize network optimization strategies
+- Identified and implemented process improvements and automation opportunities
+
+CAROLINA RECREATION & DESIGN | TERRITORY SALES MANAGER (MUNICIPAL/B2G)
+- Won multiple six-figure municipal RFP contracts for playground and public infrastructure projects
+- Contracted through Sourcewell cooperative to provide commercial shading structures to the City of Greenville, SC
+- Translated stakeholder needs into engineered, proposal-ready solutions with safety compliance
+- Managed full sales cycle from site evaluation through bid submission and contract award
+- Built relationships with city officials, procurement teams, and planners to drive approvals
+
+THE BID LAB | PROPOSAL CONSULTANT (RFP SPECIALIST)
+- Developed winning RFP responses across government and enterprise sectors
+- Structured technical narratives to align with scoring criteria and client objectives
+- Collaborated with SMEs to ensure technical accuracy and competitiveness
+
+GLOVES PLUS (MOTOROLA SOLUTIONS PARTNER) | GROWTH MANAGER
+- Secured Motorola radio contracts supplying 44 schools with communication systems
+- Won school supplies contracts independently through targeted outreach and positioning
+- Supported technical sales of communication systems to K-12 and enterprise clients
+- Assisted with RFP acquisition and solution positioning
+- Aligned product capabilities with client operational needs across education and public safety sectors
+
+TECHNICAL PROFICIENCY
+- CRM/Engagement Platforms: Salesforce, HubSpot, RingDNA, Outlook workflows
+- Automation & AI: Prompt engineering, workflow design, dashboard development, Codex/AI systems
+- SaaS/Cloud Platforms: GIS/infrastructure software, cloud-based sales tools, sales engagement platforms
+- Sales Process Automation: System design, integration, dashboarding, optimization
+- Proposal/RFP Development: Technical narrative structuring, scoring alignment, solution positioning
+
+PORTFOLIO SHOWCASE
+GitHub: rossperry22-jpg.github.io/systems-architecture-portfolio
+- HPE LGR Automation: Production pre-sales automation for Concentrix
+- Project Syndicate: AI agent coordination platform with 22 specialized roles
+- Adventure Aviator: Autonomous flight school infrastructure
+- Sonic Canvas: AI-native music commerce platform
+- OpenClaw Skills: 30+ automation skills for workflow optimization
+
+VALUE PROPOSITION
+"I design systems that transform complex sales processes into scalable, repeatable engines,
+bridging technical architecture with real-world revenue outcomes."
+
+WHY I'M AN IDEAL CANDIDATE FOR THE CONCENTRIX PRE-SALES SOLUTIONS ARCHITECT ROLE
+1. Proven internal contributor - Already delivering value within Concentrix through HPE LGR program automation
+2. Systems architecture mindset - Focus on building scalable infrastructure, not just executing tasks
+3. Technical-business translation - Ability to align complex technical capabilities with client needs and business outcomes
+4. Automation expertise - Hands-on experience with AI-powered frameworks and workflow optimization
+5. Full-cycle pre-sales experience - From technical discovery through RFP development and solution delivery
+
+AVAILABILITY & INTEREST
+Available to bring this combination of systems building, technical sales architecture, and
+automation expertise to the Concentrix Pre-Sales Solutions Architect role. Eager to scale
+impact across the organization and contribute to transforming pre-sales into a data-driven,
+efficiency-focused engine for pipeline growth.
