@@ -7,32 +7,42 @@
   <style>
     :root {
       --ink: #0c2340;
+      --ink-soft: #42566f;
       --accent: #1c6b72;
-      --paper: #f7f9fc;
+      --paper: #f3f6fa;
       --line: #d8e1ed;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
     body {
       margin: 0;
       padding: 2rem 1rem;
       background: var(--paper);
-      color: #1a2533;
-      font: 16px/1.5 Aptos, Calibri, sans-serif;
+      color: #162232;
+      font: 15px/1.45 Aptos, Calibri, sans-serif;
+    }
+
+    a {
+      color: var(--accent);
     }
 
     main {
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto;
-      background: #ffffff;
-      border-radius: 24px;
+      background: var(--white);
+      border-radius: 28px;
       box-shadow: 0 18px 42px rgba(12, 35, 64, 0.12);
       overflow: hidden;
     }
 
     header {
       padding: 2rem;
-      background: linear-gradient(135deg, var(--ink), #1a4f7c);
-      color: #ffffff;
+      background: linear-gradient(135deg, #0c2340, #1a4f7c);
+      color: var(--white);
     }
 
     h1,
@@ -43,31 +53,84 @@
     }
 
     h1 {
-      font-size: 2.3rem;
-      margin-bottom: 0.4rem;
+      font-size: 2.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink);
+    }
+
+    h3 {
+      font-size: 1rem;
+      color: var(--ink);
     }
 
     .subtitle {
+      margin: 0;
       font-size: 1.05rem;
-      color: rgba(255, 255, 255, 0.88);
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 60rem;
+    }
+
+    .header-meta,
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .chip,
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.4rem;
+      padding: 0.55rem 0.85rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .chip {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--white);
+    }
+
+    .action-link {
+      background: rgba(255, 255, 255, 0.96);
+      color: var(--ink);
     }
 
     .shell {
-      padding: 2rem;
+      padding: 1.75rem 2rem 2rem;
       display: grid;
-      gap: 1.6rem;
+      gap: 1.25rem;
     }
 
     section {
       display: grid;
-      gap: 0.8rem;
+      gap: 0.65rem;
     }
 
-    h2 {
-      font-size: 1.1rem;
-      color: var(--ink);
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
+    .callout,
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fbfcfe;
+    }
+
+    .callout {
+      padding: 1rem 1.1rem;
+      background: linear-gradient(135deg, rgba(28, 107, 114, 0.08), rgba(12, 35, 64, 0.04));
+    }
+
+    .card {
+      padding: 1rem;
     }
 
     .grid {
@@ -76,31 +139,91 @@
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .card {
-      padding: 1rem;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: #fbfcfe;
+    .two-col {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1.2fr 0.8fr;
+    }
+
+    p {
+      margin: 0;
+      color: var(--ink-soft);
     }
 
     ul {
       margin: 0;
-      padding-left: 1.15rem;
+      padding-left: 1.1rem;
+      color: var(--ink-soft);
     }
 
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem 1rem;
-      margin-top: 1rem;
-      font-size: 0.95rem;
+    li + li {
+      margin-top: 0.3rem;
     }
 
-    .chip {
-      padding: 0.45rem 0.7rem;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.12);
-      border: 1px solid rgba(255, 255, 255, 0.18);
+    .portfolio-link {
+      font-size: 1.02rem;
+      font-weight: 800;
+      word-break: break-word;
+    }
+
+    .why-fit {
+      display: grid;
+      gap: 0.6rem;
+    }
+
+    .why-fit strong {
+      color: var(--ink);
+    }
+
+    .small-note {
+      font-size: 0.92rem;
+    }
+
+    @page {
+      size: Letter;
+      margin: 0.45in;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+        font-size: 10.5pt;
+      }
+
+      main {
+        max-width: none;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      header {
+        padding: 1.1rem 1.2rem 1rem;
+      }
+
+      .shell {
+        padding: 1rem 1.2rem 1.2rem;
+        gap: 0.9rem;
+      }
+
+      .actions {
+        display: none;
+      }
+
+      .grid,
+      .two-col {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .callout,
+      .card {
+        break-inside: avoid;
+      }
+
+      a {
+        color: #0f5d62;
+        text-decoration: underline;
+      }
     }
   </style>
 </head>
@@ -108,77 +231,141 @@
   <main>
     <header>
       <h1>Ross Perry</h1>
-      <p class="subtitle">Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo, with demonstrated systems-building, workflow automation, and pre-sales architecture impact.</p>
-      <div class="meta">
+      <p class="subtitle">Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo, with demonstrated systems-building, workflow automation, prompt engineering, and solutions-architecture level business impact.</p>
+      <div class="header-meta">
         <span class="chip">Target Role: Pre-Sales Solutions Architect</span>
-        <span class="chip">Workflow Automation</span>
-        <span class="chip">Prompt Engineering</span>
-        <span class="chip">Public Sector RFPs</span>
+        <span class="chip">Internal Concentrix Candidate</span>
+        <span class="chip">30-40% Time Reduction</span>
+        <span class="chip">Public Sector RFP Wins</span>
+      </div>
+      <div class="actions">
+        <a class="action-link" href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">Open Full Portfolio</a>
+        <a class="action-link" href="./ross_perry_resume.pdf">Download PDF</a>
       </div>
     </header>
 
     <div class="shell">
       <section>
-        <h2>Summary</h2>
-        <p>Internal Concentrix candidate with a track record of turning fragmented workflows into cleaner operating systems. Brings a mix of systems thinking, technical translation, automation design, and contract-winning execution across commercial and public-sector environments.</p>
-      </section>
-
-      <section>
-        <h2>Current Role</h2>
-        <div class="card">
-          <h3>Lead Generation Representative | Concentrix B2B Sales | HPE Motion</h3>
-          <ul>
-            <li>Built workflow automation patterns across Salesforce, RingDNA, and Outlook.</li>
-            <li>Reduced manual data-entry time by 30-40% through a dashboard-led operating model.</li>
-            <li>Applied prompt engineering and process design to improve continuity and repeatability.</li>
-            <li>Created a pattern with value beyond a single motion, supporting internal transferability.</li>
-          </ul>
+        <h2>Full Portfolio</h2>
+        <div class="callout">
+          <p class="portfolio-link">
+            Full portfolio and case studies:
+            <a href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">https://rossperry22-jpg.github.io/systems-architecture-portfolio/</a>
+          </p>
+          <p class="small-note">VITALLY IMPORTANT: use this link for the live portfolio, flagship HPE workflow automation case study, downloadable resume formats, and the broader proof of why Ross is the strongest fit for the opportunity.</p>
         </div>
       </section>
 
       <section>
-        <h2>Selected Impact</h2>
+        <h2>Executive Summary</h2>
+        <p>Internal Concentrix candidate with a track record of turning fragmented workflows into cleaner operating systems and translating technical execution into measurable business value. Brings a mix of systems thinking, workflow automation, prompt engineering, technical translation, and contract-winning execution across commercial, education, and public-sector environments.</p>
+      </section>
+
+      <section>
+        <h2>Why Ross Is Specifically The Best Fit</h2>
+        <div class="grid why-fit">
+          <div class="card">
+            <strong>Already inside Concentrix</strong>
+            <p>Ross already understands the operating reality, systems, expectations, and internal culture, which removes a major ramp risk.</p>
+          </div>
+          <div class="card">
+            <strong>Already doing architecture-level work</strong>
+            <p>Built an HPE workflow automation model across Salesforce, RingDNA, and Outlook that reduced manual data-entry time by 30-40%.</p>
+          </div>
+          <div class="card">
+            <strong>Strong business translation</strong>
+            <p>The work consistently ties architecture decisions to seller capacity, process continuity, operational scale, and revenue outcomes.</p>
+          </div>
+          <div class="card">
+            <strong>Proven outside the current role too</strong>
+            <p>Multiple six-figure public-sector wins, Sourcewell delivery, and 44-school Motorola deployments show broad credibility under complex buying conditions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="two-col">
+        <div>
+          <h2>Current Role | Concentrix B2B Sales</h2>
+          <div class="card">
+            <h3>Lead Generation Representative | HPE Motion</h3>
+            <ul>
+              <li>Built workflow automation patterns across Salesforce, RingDNA, and Outlook.</li>
+              <li>Reduced manual data-entry time by 30-40% through a dashboard-led operating model.</li>
+              <li>Applied prompt engineering and process design to improve continuity, speed, and repeatability.</li>
+              <li>Created a pattern with value beyond a single motion, supporting internal transferability and reuse.</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Core Strengths</h2>
+          <div class="card">
+            <ul>
+              <li>Systems architecture and operating model design</li>
+              <li>Workflow automation and prompt engineering</li>
+              <li>Pre-sales technical translation</li>
+              <li>RFP strategy and stakeholder alignment</li>
+              <li>Public-sector and education contract execution</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected Business Impact</h2>
         <div class="grid">
           <div class="card">
-            <h3>Concentrix</h3>
+            <h3>Concentrix | HPE</h3>
             <ul>
               <li>30-40% reduction in manual data-entry effort</li>
               <li>Reusable workflow architecture for seller support</li>
+              <li>Cross-system operating model unifying Salesforce, RingDNA, and Outlook</li>
             </ul>
           </div>
           <div class="card">
-            <h3>Public Sector</h3>
+            <h3>Municipal And Public Sector</h3>
             <ul>
               <li>Multiple six-figure playground and infrastructure RFP wins</li>
-              <li>Sourcewell-backed City of Greenville solution delivery</li>
+              <li>Solution framing that balanced compliance, credibility, and buyer confidence</li>
             </ul>
           </div>
           <div class="card">
-            <h3>Education</h3>
+            <h3>Sourcewell And Education</h3>
             <ul>
-              <li>Motorola radio deployments across 44 schools</li>
-              <li>Independent school-supplies contracts through targeted outreach</li>
+              <li>Sourcewell-backed City of Greenville commercial shading solution</li>
+              <li>Motorola radio system deployments across 44 schools</li>
             </ul>
           </div>
           <div class="card">
-            <h3>AI Systems</h3>
+            <h3>AI Systems And Platforms</h3>
             <ul>
-              <li>22-agent Project Syndicate platform design</li>
-              <li>30+ specialized skills across the OpenClaw ecosystem</li>
+              <li>22-agent Project Syndicate orchestration platform</li>
+              <li>30+ specialized OpenClaw skills across automation, research, and workflow acceleration</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <section>
-        <h2>Portfolio Projects</h2>
-        <ul>
-          <li>HPE Workflow Automation</li>
-          <li>Project Syndicate</li>
-          <li>Adventure Aviator</li>
-          <li>Sonic Canvas Marketplace</li>
-          <li>OpenClaw Skills Ecosystem</li>
-        </ul>
+      <section class="two-col">
+        <div>
+          <h2>Featured Portfolio Proof</h2>
+          <div class="card">
+            <ul>
+              <li>HPE Workflow Automation</li>
+              <li>Project Syndicate</li>
+              <li>Adventure Aviator</li>
+              <li>Sonic Canvas Marketplace</li>
+              <li>OpenClaw Skills Ecosystem</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Call To Action</h2>
+          <div class="callout">
+            <p><strong>Review the full live portfolio:</strong></p>
+            <p class="portfolio-link"><a href="https://rossperry22-jpg.github.io/systems-architecture-portfolio/">https://rossperry22-jpg.github.io/systems-architecture-portfolio/</a></p>
+            <p class="small-note">The portfolio shows the flagship Concentrix HPE case study, project documentation, business-impact framing, and downloadable artifacts in one place.</p>
+          </div>
+        </div>
       </section>
     </div>
   </main>

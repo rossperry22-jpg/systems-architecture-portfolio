@@ -3,10 +3,26 @@ ROSS PERRY
 Lead Generation Representative at Concentrix B2B Sales supporting the HPE logo.
 Target role: Pre-Sales Solutions Architect.
 
+FULL PORTFOLIO
+https://rossperry22-jpg.github.io/systems-architecture-portfolio/
+
+VITALLY IMPORTANT:
+Please review the full live portfolio at the link above for the flagship HPE workflow
+automation case study, supporting project work, and the clearest proof of why Ross is
+specifically the best fit for this opportunity.
+
 SUMMARY
 Internal Concentrix candidate with demonstrated systems-building, workflow automation,
-and business translation skills. Known for turning fragmented workflows into cleaner
-operating systems and tying technical design to measurable business value.
+prompt engineering, and business translation skills. Known for turning fragmented
+workflows into cleaner operating systems and tying technical design to measurable
+business value.
+
+WHY ROSS IS THE BEST FIT
+- Already inside Concentrix and familiar with the operating environment
+- Already delivering solutions-architecture level work from the current role
+- Reduced manual data-entry time by 30-40% in the HPE workflow automation model
+- Strong business translation across technical, operational, and revenue outcomes
+- Proven contract-winning execution across public sector and education environments
 
 CURRENT IMPACT | CONCENTRIX B2B SALES | HPE MOTION
 - Built workflow automation patterns across Salesforce, RingDNA, and Outlook
